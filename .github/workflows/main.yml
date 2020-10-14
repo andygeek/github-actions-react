@@ -20,7 +20,7 @@ jobs:
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
       - name: npm install
-        run: pws
+        run: npm install
 
       - name: eslint
-        run: npm run eslint
+        run: pws
