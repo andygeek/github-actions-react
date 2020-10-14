@@ -19,6 +19,9 @@ jobs:
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
+      - name: npm install
+        run: npm install
+
       - name: ESLint checker
         uses: ninosaurus/eslint-check@v5.3.1
       
