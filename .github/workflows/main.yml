@@ -23,5 +23,4 @@ jobs:
         run: npm install
 
       - name: eslint
-        run: npx elint src/
-
+        run: npx eslint src/
